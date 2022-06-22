@@ -6,8 +6,8 @@ Translate `.xlf` files using Google Cloud Translate API.
 
 ### 1. Create a Google Cloud project with the Translate API enabled
 
-You should set the envvar `GOOGLE_APPLICATION_CREDENTIALS` with cretenials
-which have access to that project's translate api:
+You should set the envvar `GOOGLE_APPLICATION_CREDENTIALS` with credentials
+which have access to that project's GCloud Translate API:
 
 https://cloud.google.com/docs/authentication/getting-started
 
@@ -48,3 +48,12 @@ chmod +x google-cloud-translate-xliff.py
 
 ./google-cloud-translate-xliff.py
 ```
+
+## Useful documentation
+
+sources are very simple, maybe you can study then. Moreover, here we can link to some
+interesting material:
+
+* [https://docs.translatehouse.org/projects/translate-toolkit/en/latest/index.html](https://docs.translatehouse.org/projects/translate-toolkit/en/latest/index.html) [(PDF)](https://docs.translatehouse.org/_/downloads/translate-toolkit/en/stable-1.12.0/pdf/)
+*
+*
